@@ -1,23 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import {
     Alert,
-    Button,
-    Dimensions,
-    FlatList,
-    Image,
     SafeAreaView,
     StyleSheet,
-    Text,
-    TouchableOpacity,
-    View
 } from 'react-native';
-import { useGallery } from "./use-gallery";
-import MyDropDownPicker from './MyDropDownPicker';
-import TextInputModal from './TextInputModal';
-import BigImageModal from './BigImageModal';
-import { useRewardAd } from './use-reward-ad';
+import { useGallery } from './src/hook/use-gallery';
+import MyDropDownPicker from './src/MyDropDownPicker';
+import TextInputModal from './src/TextInputModal';
+import BigImageModal from './src/BigImageModal';
+import { useRewardAd } from './src/hook/use-reward-ad';
 import { useEffect } from 'react';
-import ImageList from './ImageList';
+import ImageList from './src/ImageList';
 
 
 
